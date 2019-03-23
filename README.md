@@ -1,6 +1,6 @@
-#### Holahalo-Catalog
+# Holahalo-Catalog
 
-### Instalasi
+## Instalasi
 
 - Clone repositori.
 - Masuk ke direktori aplikasi dan perbarui package dengan perintah: ```composer update -vvv```.
@@ -12,9 +12,9 @@
 
 Terakhir, akses aplikasi melalui peramban dengan tautan: ```http://localhost:8000/file/index```.
 
-### How to use
+## How to use
 
-## Login
+### Login
 - Setelah mengakses aplikasi akan muncul halaman utama
 - Untuk mulai mengelola catalog, login sebagai admin
 - Klik pada tombol login di kanan atas
@@ -23,11 +23,11 @@ Terakhir, akses aplikasi melalui peramban dengan tautan: ```http://localhost:800
 - Masukkan email admin dengan password berupa text='password'
 - setelah itu anda akan kembali ke halaman utama
 
-## Kelola Data Katalog
+### Kelola Data Katalog
 - Pada halaman utama akan terlihat perbedaan pada menu bar
 - Pilih menu "Kelola Katalog"
 
-# Kelola Kategori
+#### Kelola Kategori
 - Pilih sub menu kategori
 - Setelah itu akan muncul halaman daftar kategori
 
@@ -41,7 +41,7 @@ Terakhir, akses aplikasi melalui peramban dengan tautan: ```http://localhost:800
 
 - Untuk menghapus kategori klik tombol hapus pada kategori yang diinginkan
 
-# Kelola Produk
+#### Kelola Produk
 - Pilih sub menu produk
 - Setelah itu akan muncul halaman daftar produk
 
@@ -57,7 +57,7 @@ Terakhir, akses aplikasi melalui peramban dengan tautan: ```http://localhost:800
 
 - Untuk menghapus produk klik tombol hapus pada produk yang diinginkan
 
-## Melihat Produk
+### Melihat Produk
 - Untuk melihat produk klik menu "Lihat Semua Produk"
 - Setelah itu akan muncul semua produk yang telah didaftarkan
 

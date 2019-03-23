@@ -11,9 +11,10 @@
 |
 */
 // Route::group(['middleware' => 'revalidate'], function(){
-    Route::get('/', function () {
-        return view('welcome');
-    });
+    Route::get('/', [
+		'uses' => 'IndexController@index',
+		'as' => 'index'
+	]);
     
     Route::get('/loginForm', [
 		'uses' => 'LoginController@index',
@@ -29,11 +30,6 @@
 		'uses' => 'LoginController@logout',
 		'as' => 'logout'
     ]);
-    
-    Route::get('/index', [
-		'uses' => 'IndexController@index',
-		'as' => 'index'
-	]);
 
     Route::prefix('category')->group(function () {
         Route::get('/index', [
